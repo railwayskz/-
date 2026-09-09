@@ -28,10 +28,10 @@
       font-family: Arial, sans-serif;
     }
 
-    /* Большой прозрачный круг */
+    /* Круг */
     .social-circle {
-      width: 330px;
-      height: 330px;
+      width: 280px;
+      height: 280px;
 
       border-radius: 50%;
 
@@ -57,8 +57,8 @@
       content: "";
       position: absolute;
 
-      width: 355px;
-      height: 355px;
+      width: 305px;
+      height: 305px;
 
       border-radius: 50%;
       border: 1px solid rgba(255, 255, 255, 0.4);
@@ -71,21 +71,21 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
 
-      gap: 28px;
+      gap: 18px;
 
       position: relative;
       z-index: 2;
     }
 
     .icon {
-      width: 105px;
-      height: 105px;
+      width: 82px;
+      height: 82px;
 
       display: flex;
       align-items: center;
       justify-content: center;
 
-      border-radius: 24px;
+      border-radius: 20px;
 
       background: rgba(255, 255, 255, 0.18);
 
@@ -102,8 +102,8 @@
     }
 
     .icon img {
-      width: 78px;
-      height: 78px;
+      width: 62px;
+      height: 62px;
 
       object-fit: contain;
 
@@ -122,28 +122,29 @@
     @media (max-width: 500px) {
 
       .social-circle {
-        width: 300px;
-        height: 300px;
+        width: 260px;
+        height: 260px;
       }
 
       .social-circle::before {
-        width: 325px;
-        height: 325px;
+        width: 285px;
+        height: 285px;
       }
 
       .icons {
-        gap: 22px;
+        gap: 16px;
       }
 
       .icon {
-        width: 92px;
-        height: 92px;
-        border-radius: 21px;
+        width: 76px;
+        height: 76px;
+
+        border-radius: 18px;
       }
 
       .icon img {
-        width: 68px;
-        height: 68px;
+        width: 57px;
+        height: 57px;
       }
     }
   </style>
@@ -155,18 +156,22 @@
 
     <div class="icons">
 
+      <!-- Telegram -->
       <a class="icon" href="https://t.me/railways_kz" target="_blank">
         <img src="Telegram.png" alt="Telegram">
       </a>
 
+      <!-- YouTube -->
       <a class="icon" href="https://www.youtube.com/@railwaysresmi" target="_blank">
         <img src="YouTube.png" alt="YouTube">
       </a>
 
+      <!-- Instagram -->
       <a class="icon" href="https://instagram.com/railways.kz" target="_blank">
         <img src="Instagram.png" alt="Instagram">
       </a>
 
+      <!-- TikTok -->
       <a class="icon" href="https://www.tiktok.com/@railwayskz" target="_blank">
         <img src="Tik-Tok.png" alt="TikTok">
       </a>
